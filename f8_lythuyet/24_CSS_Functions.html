@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F8</title>
+    <style>
+        .box {
+        width: calc(80% + 50px);
+        height:120px;
+        background:rgb(21, 51, 185);
+    }
+
+        .box::after{
+            content: attr(data);
+        }
+        a::after{
+            content: " (" attr(href)") ";
+        }
+    </style>
+</head>
+<body>
+    <div class="box" data="day la box"></div>
+    <a href="https://www.youtube.com"> Xem youtube</a>
+    <h1>CSS funtions</h1>
+    <ul>
+        <li>var()</li>
+        <li>linear-gradient()</li>
+        <li>rgba()</li>
+        <li>rgb()</li> 
+        <li>calc()</li>
+        <li>attr()</li>
+    </ul>
+</body>
+</html>

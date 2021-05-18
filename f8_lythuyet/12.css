@@ -1,0 +1,21 @@
+:root {
+    --mausac: orange;
+}
+/* global */
+
+h1 {
+    --my-color: blue; /* local */
+    color: var(--my-color);
+}
+
+h2 {
+    color: var(--mausac);
+}
+
+h3 {
+    color: var(--mausac);
+}
+
+h4 {
+    color: var(--mausac);
+}
